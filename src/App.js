@@ -153,12 +153,11 @@ function App() {
           <select value={coin} onChange={(event) => {
                 setCoin(event.target.value);
                 setTokenToInvest(tokenAddresses[event.target.value]);
-              }
-            }>
-			      <option>USDC</option>
+              }}>
+	    <option>USDC</option>
             <option>Matic</option>
-			      <option>DAI</option>
-		      </select>
+	    <option>DAI</option>
+	  </select>
         </div>
       </div>
     )
